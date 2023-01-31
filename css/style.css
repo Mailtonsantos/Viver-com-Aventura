@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+/* @mailtongsantos */
+
+/*	VIVER COM AVENTURAS
+/*	MAILTON GUIMARÃES SANTOS 
+/*	Email: 			mailtonsantos@gmail.com 
+/*	Instagran: 		https://instagram.com/mailtongsantos?igshid=YmMyMTA2M2Y=
+/*    				https://instagram.com/gruposelvapb?igshid=YmMyMTA2M2Y=
+
+/*-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--*/
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #0c0c0c;
+  background: linear-gradient(#e4f5d5, #3b5f2c);
+  overflow-x: hidden;
+  margin:auto;
+}
+
+.header {
+  width: 100%;
+  position:static;
+  margin: auto;
+ }
+ 
+ .barra_menu { /* MENU DE OPÇÕES*/
+  display: inline;
+  width: 15%;
+  height:400px;
+  background: linear-gradient(#e4f5d5, #3b5f2c);
+ }
+ 
+ .conteudo-right{
+  width:85%;
+  float:left;
+  background-color:#F00;
+  }
+ 
+ .logo { /* Ajusta a logo no topo da tela */
+	display: inline-block;
+	position: relative;	
+	margin: 15px 15px;
+	width: 7%;
+	float:left;
+}
+
+@font-face {
+	font-family: Base02;
+	src: url(../fonts/Base02.ttf);
+}
+
+.titulo-principal { /* Ajusta a logo no topo da tela */
+	font-family: Base02, sans-serif;
+	position: relative;	
+	font-size: 250%;
+	margin-left: 20px;
+	height: 50px;
+	min-height: 200%;
+	float:none;	
+}
+
+.imagem-banner { /* Ajusta a imagem no topo da tela*/
+	position: absolute;
+ 	width: 100%;
+	transform: scale(1.0);	
+	float:none;
+}

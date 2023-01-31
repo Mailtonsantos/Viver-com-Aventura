@@ -1,0 +1,114 @@
+<!doctype html>
+<!-- 
+	//////////////////////////////////////////////////////
+
+	VIVER COM AVENTURAS 
+	MAILTON GUIMARÃES SANTOS
+		
+	Email: 			mailtonsantos@gmail.com
+	Instagran: 		https://instagram.com/mailtongsantos?igshid=YmMyMTA2M2Y=
+    				https://instagram.com/gruposelvapb?igshid=YmMyMTA2M2Y=
+	Youtube:		
+
+	//////////////////////////////////////////////////////
+-->
+
+@charset "utf-8";
+/* CSS Document */
+
+    <head>
+        <link rel = "stylesheet" type = "imagem/x-icon" href = "img/logo_i.ico"/> <!-- Inclui o icone junto ao titulo  
+-->
+
+        <link href="css/animate.css" rel="stylesheet" /><!-- Animate.css -->
+        <link href="css/style.css" rel="stylesheet" /> <!-- Estilo do Site -->
+        <link href="css/owl.carousel.min.css" rel="stylesheet" type="text/css"  /> <!--owl slider stylesheet -->
+        <link href="css/nice-select.min.css" rel="stylesheet" integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ==" crossorigin="anonymous" />
+        <link href="css/responsive.css" rel="stylesheet" />
+        
+ 
+    </head>
+<body>
+
+  <div>    <!-- BANNER -->
+    <p >Viver Com Aventuras</p>
+    <!-- <img class="imagem-banner" src="img/Banner.jpg" alt="imagem">;  <!--BANNER DA PAGINA PRINCIPAL -->
+    <!-- <img class="logo" src="img/logo_i.ico">; <!-- LOGO DA PAGINA PRINCIPAL -->
+  </div>
+
+
+
+
+.imagem-banner { /* Ajusta a imagem no topo da tela*/
+	position: absolute;
+ 	width: 100%;
+	transform: scale(1.0);	
+}
+
+@font-face {/* Ajusta o Titulo principal no topo da tela */
+	font-family: Selva;
+	src: url(../fonts/Base02.ttf);
+}
+
+.titulo-principal { /* Ajusta o Titulo principal no topo da tela */
+	font-family: Selva, sans-serif;
+  position: relative;	
+	font-size: 250%;
+	margin-left: 20px;
+	color: #0a0a0a;
+	height: 50px;
+	min-height: 200%;
+}
+
+.logo { /* Ajusta a logo no topo da tela */
+	display: inline-block;
+	position: relative;	
+	margin: 15px 15px;
+	width: 7%;
+}
+
+/*-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx--*/
+
+
+
+
+section{
+	display:block;
+}
+
+
+
+
+.article{
+	display: flex;
+	margin:15px;
+}
+
+.section{
+	padding:15px;
+	display:flex;
+}
+.s1{background-color:#aaa;}
+.s2{background-color:#fff;}	
+
+	h1, h2, h3, h4, h5, h6 {
+		font-weight: 300;
+		color: #666;
+		line-height: 1.5em;
+	}
+
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+		color: inherit;
+		text-decoration: none;
+	}
+
+
+
+.copyright {
+	width: 100%;
+	height: 30px;
+	opacity: .5;
+	color: #FFFFFF;
+	font-size: 13px;
+}
+
